@@ -1,0 +1,209 @@
+* {
+    width: auto;
+    height: auto;
+}
+
+body {
+    background-color: #559269;
+}
+
+
+button {
+    padding-left: 10px;
+    background-color: #5791c0;
+    color: rgb(251, 247, 247);
+    font-size: 15px;
+}
+
+div[class=search-bar] {
+    padding-left: 650px;
+}
+
+footer {
+    display: flex;
+    align-content: center;
+
+
+}
+
+h1 {
+    display: inline-block;
+
+}
+
+nav {
+
+    padding-left: 380px;
+    font-size: 20px;
+    padding-right: 350px;
+    display: inline-block;
+}
+
+h2 {
+    padding-left: 250px;
+    color: #e92f0a;
+}
+
+h3 {
+    text-align: center;
+    color: #6e2ba1;
+    font-size: 25px;
+}
+
+.fa-user {
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.fa-tablets {
+    padding-left: 10px;
+
+    color: #82629a;
+}
+
+.fa-pills {
+    color: #82629a;
+}
+
+img {
+    display: inline-block;
+}
+
+.fa-angles-right {
+    padding-left: 1400px;
+    right: 5px;
+
+}
+
+.box {
+
+    width: 400px;
+    height: 250px;
+    border: 2px solid black;
+    padding-left: 20px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 500px;
+    margin-right: 50px;
+    background-color: aliceblue;
+
+}
+
+.fa-user-large {
+    padding-left: 170px;
+
+}
+
+.table {
+    padding-bottom: 10px;
+
+}
+
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+
+    20% {
+        left: 0%;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    100% {
+        left: -400%;
+    }
+}
+
+
+
+div#slider {
+    overflow: hidden;
+}
+
+div#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite;
+}
+
+.blog-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.blog-box {
+    width: 300px;
+    background-color: aliceblue;
+    border: 1px solid;
+    margin: 20px;
+    margin-left: 300px;
+    margin-top: 100px;
+
+}
+
+.blog-img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-img img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-text span {
+    color: #e92f0a;
+    font-size: 0.9rem;
+}
+
+.blog-text a {
+    color: #5791c0;
+}
+
+.blog-text a:hover {
+    color: rgb(9, 10, 10);
+    transition: all ease 0.3s;
+}
